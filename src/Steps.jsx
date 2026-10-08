@@ -36,7 +36,7 @@ export default function Steps() {
           </div>
         </div>
         <div className="image">
-          <img src="/public/Group 10.png" alt="back-ground-image" />
+          <img src="/src/assets/Group 10.png" alt="back-ground-image" />
         </div>
       </div>
     </div>
