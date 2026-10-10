@@ -21,11 +21,9 @@
     border-radius: 15px;
     height: 600px;
     box-shadow: 0px 25px 40px -20px #00000018;
-  
+
     align-items: center;
     gap: 84px;
-
-    
   }
 }
 
@@ -33,13 +31,12 @@
   height: 100%;
   padding: 1rem;
 
-   @media screen and (max-width: 1024px) {
-      width: 100%;
-      
-    }
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
   .steps {
     position: relative;
-    
+
     background-color: #483eff;
     height: 568px;
     border-radius: 10px;
@@ -76,7 +73,7 @@
         color: #022959;
       }
 
-      .step-2{
+      .step-2 {
         border: 1px solid #fff;
         width: 33px;
         height: 33px;
@@ -130,12 +127,17 @@
 
 .form-container {
   width: 100%;
-  padding-top:47px;
+  padding-top: 47px;
   .form-fields {
     width: 450px;
 
     @media screen and (max-width: 768px) {
       width: 80%;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1024px) {
+      width: 90%;
       margin: 0 auto;
     }
     h1 {
@@ -172,7 +174,7 @@
       margin-bottom: 8px;
     }
     input {
-      border: 1px solid #D6D9E6 !important;
+      border: 1px solid #d6d9e6 !important;
       border-radius: 8px !important;
       padding: 14.5px 16px !important;
     }
