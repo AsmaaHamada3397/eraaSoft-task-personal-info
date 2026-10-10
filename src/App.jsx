@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='App'>
-    <div className="form">
+    <div className="form d-flex flex-column flex-md-row justify-content-between">
       <Steps/>
       <Form/>
     </div>
